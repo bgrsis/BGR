@@ -8,6 +8,16 @@ spring.datasource.password:
   rule: null
   restartRequired: false
   defaultValue: "datasource-password"
+spring.datasource.url:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource Url"
+  description: "Datasource url value"
+  sectionName: "DATASOURCE_URL"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "jdbc:sqlserver://localhost:1433;database=iki-media;encrypt=true;trustServerCertificate=true"
 spring.datasource.username:
   configValueCount: "SINGLE"
   configValueType: "STRING"
