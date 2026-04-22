@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    password: "sistas_1"
+    url: "jdbc:sqlserver://localhost:1433;database=Test04-SisVoiceCC;encrypt=true;trustServerCertificate=true"
+    username: "sa"
