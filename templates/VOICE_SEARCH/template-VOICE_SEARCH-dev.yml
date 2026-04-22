@@ -1,0 +1,20 @@
+spring.datasource.password:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource Password"
+  description: "Datasource password value"
+  sectionName: "DATASOURCE_PASSWORD"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "datasource-password"
+spring.datasource.username:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Datasource Username"
+  description: "Datasource username value"
+  sectionName: "DATASOURCE_USERNAME"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "datasource-username"
