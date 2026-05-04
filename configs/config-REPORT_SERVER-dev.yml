@@ -1,0 +1,60 @@
+application:
+  encryption:
+    key: "{cipher}4bee4da6bbc5c15390d3087350f83e0f141aa798ad3f429107742de167bc8089cb7771f1ae7ac1cb53ffd522d08f0faa"
+    salt: "{cipher}9eeb542e7bf224eb1d003e2fd39ebb94c6244ebda8e1541e54badc3feb141945a7f98c0e2b086c1be2f5d952e9dabe34"
+  keycloak-admin:
+    app-realm-id: "sistas"
+    app-resource-id: "chatbot"
+    app-resource-secret: "{cipher}1c8f4f385440267343d5cbb2cc0e414ac47dc98129ce548e8406ebce43c43d51dd71f04387720fd214225e6d60efd2cb39864704d1914d58229dc0649b7313ac"
+    client-id: "admin-cli"
+    max-pool-size: 10
+    password: "{cipher}c2492a86d70c53a9cff756ba08113f768b7117596dd7cea96d1ebbdd56ac8c98"
+    realm: "master"
+    server-url: "https://sistas-keycloak.sistas.com.tr"
+    trusted-audiences:
+    - "sistas-eva"
+    - "smart"
+    - "campus"
+    - "sistas-phone"
+    - "chatbot"
+    username: "{cipher}d2736886ffafe863bedaf49ee96bef5e2a907fb43d4bf064d01de29de25172dc"
+  report-management:
+    default-page-size: 50
+    export-directory: null
+    forbidden-sql-keywords:
+    - "DELETE"
+    - "DROP"
+    - "TRUNCATE"
+    - "ALTER"
+    - "UPDATE"
+    - "INSERT"
+    max-rows: 5000
+    mssql-parameter-limit: 2000
+    provider-acquire-timeout-ms: 2000
+    provider-circuit-failure-threshold: 5
+    provider-circuit-open-seconds: 5
+    provider-max-concurrent: 4
+    provider-retry-count: 1
+    provider-retry-delay-ms: 250
+    query-timeout-seconds: 60
+  report-schedule:
+    poll-interval-ms: 30000
+eureka:
+  client:
+    service-url:
+      defaultZone: "{cipher}8ab8f1f4f9c91b292210bf9f436d3e0e2576be4c14906d7b15861de2edac2b5dc11f4e165e8a66104ba7ea0439747d463b10fddfbf9828ce75230e3280b7233d"
+jhipster:
+  mail:
+    from: "mustafa.yalcin@sistas.com.tr"
+server:
+  port: 26085
+spring:
+  datasource:
+    password: "{cipher}e8399c7ef1fcb3bf9140f608c16adf04a42912c74da977b841611d6d14c13137"
+    url: "jdbc:sqlserver://localhost:1433;database=ReportServer;encrypt=false"
+    username: "{cipher}990052e5f1b3cd1949da7660795106986440947b71078158dde24973e879c88c"
+  mail:
+    host: "mail.sistas.com.tr"
+    password: "{cipher}0228d883f4af332fefa87a5797e212af9fd92556a20252a4c17d1815743b9df7"
+    port: 587
+    username: "{cipher}e4d378a0e8f9728e72836c16b351674b8895e32ba31fe4e9c298b53f4ba3dbe7cde25f584a229747ea0c41eee01cc329"
