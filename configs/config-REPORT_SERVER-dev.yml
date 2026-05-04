@@ -1,7 +1,7 @@
 application:
   encryption:
-    key: "{cipher}4bee4da6bbc5c15390d3087350f83e0f141aa798ad3f429107742de167bc8089cb7771f1ae7ac1cb53ffd522d08f0faa"
-    salt: "{cipher}9eeb542e7bf224eb1d003e2fd39ebb94c6244ebda8e1541e54badc3feb141945a7f98c0e2b086c1be2f5d952e9dabe34"
+    key: "{cipher}b4d08c33a18c670d5542782f9b22ea07ef9c196d5aafad80c88d018a7927420d5d8c17535ddade758acff7666bd5253d0b4e97be84ab6ffa87bcaedc078616ad"
+    salt: "{cipher}262b328f2761a8cd5285139cfb9e735db15c519317497ff1a94dcc56d0cb8427761b2ff64a203172784f7ad664bbc711"
   keycloak-admin:
     app-realm-id: "sistas"
     app-resource-id: "chatbot"
